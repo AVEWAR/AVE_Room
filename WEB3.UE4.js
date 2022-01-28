@@ -1155,7 +1155,7 @@ $(document).ready(function() {
 		// ----------------------------------------
 		// MORE JS
 		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/AVEWAR/AVE_Room/85f09975cb3e0ee5c2f643eb79f2421a74494929/WEB3.data.js'));
-		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('Utility.js')).then(addScriptToDom);
+		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/AVEWAR/AVE_Room/870e7dcb7d62b2c6cf0b9ff794043708ef3aa52c/Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
 			fetchOrDownloadAndStore(db, Module.locateFile('WEB3.data')).then(function(dataBlob) {
